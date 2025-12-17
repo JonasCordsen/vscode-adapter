@@ -53,5 +53,6 @@ The Pester `Output` pane maintains a log of the activities that occur with the P
 
 ### Known Issues
 
+- Test update
 - For test history purposes, a test is uniquely identified by its full path, e.g. Describe/Context/It. If you rename a test or move a test to another context/describe, it will be treated as a new test and test history will be reset
 - If you do not have any .tests.ps1 files in your directory upon startup, you will currently need to reload vscode for the extension to activate after you create the .tests.ps1 file. [This is is a known issue that is being tracked](https://github.com/pester/vscode-adapter/issues/122)
